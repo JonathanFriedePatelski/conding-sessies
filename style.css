@@ -1,5 +1,6 @@
 h1 {
     margin: 50px;
+    font: bold;
 }
  
 /* Voorbeeld 1 */
@@ -44,7 +45,7 @@ h1 {
     margin: 100px;
  }
 
- .section-2:hover {
+ .section-2:hover, .box {
     width: 600px;
  }
 
@@ -56,8 +57,8 @@ h1 {
     transition-timing-function: linear;
  }
 
- .box-1:hover {
-    width: 400px;
+ .one:hover {
+    width: 600px;
  }
 
  .two {
@@ -65,6 +66,11 @@ h1 {
     color: white;
     width: 200px;
     height: 200px;
+    transition-timing-function: ease-in;
+ }
+
+ .two:hover {
+    width: 600px;
  }
 
  .three {
@@ -72,6 +78,11 @@ h1 {
     color: white;
     width: 200px;
     height: 200px;
+    transition-timing-function: ease-out;
+ }
+
+ .three:hover {
+    width: 600px;
  }
 
  .four {
@@ -79,4 +90,9 @@ h1 {
     color: white;
     width: 200px;
     height: 200px;
+    transition-timing-function: ease-in-out;
+ }
+ 
+ .four:hover {
+    width: 600px;
  }
