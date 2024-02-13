@@ -33,36 +33,50 @@ h1 {
 
  /* Timing fuction */
 
- .box2 {
+ .box {
+    width: 200px;
+    height: 200px;
+    transition-duration: 2s;
+    transition-property: width;
+ }
+
+ .section-2 {
     margin: 100px;
  }
 
- .box-1 {
+ .section-2:hover {
+    width: 600px;
+ }
+
+ .one {
     background-color: rgb(0, 255, 255);
     color: white;
     width: 200px;
     height: 200px;
+    transition-timing-function: linear;
  }
 
- .box-2 {
+ .box-1:hover {
+    width: 400px;
+ }
+
+ .two {
     background-color: rgb(94, 238, 238);
     color: white;
     width: 200px;
     height: 200px;
  }
 
- .box-3 {
+ .three {
     background-color: rgb(31, 189, 189);
     color: white;
     width: 200px;
     height: 200px;
  }
 
- .box-4 {
+ .four {
     background-color: rgb(2, 109, 109);
     color: white;
     width: 200px;
     height: 200px;
  }
-
- 
