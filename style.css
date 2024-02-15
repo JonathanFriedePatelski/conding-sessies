@@ -1,0 +1,114 @@
+h1 {
+    margin: 50px;
+    font: bold;
+}
+
+/* Voorbeeld 1 */
+
+.voorbeeld-1 {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background: rgb(241, 48, 48);
+    color: rgb(241, 48, 48);
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.71,-0.75, 0.22, 1.08);
+    transition-property: transform, background, width, font-size, color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font: bold;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.voorbeeld-1:hover {
+    background: rgb(40, 40, 250);
+    transform: rotate(45deg);
+    font-size: xx-large;
+    font: bold;
+}
+
+.p-1 {
+    transform: rotate(315deg);
+}
+
+/* Timing fuction */
+
+.box {
+    width: 200px;
+    height: 200px;
+    transition-duration: 2s;
+    transition-property: width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 {
+    margin: 100px;
+}
+
+.section-2:hover {
+    width: 600px;
+}
+
+.one {
+    background-color: rgb(0, 255, 255);
+    color: white;
+    width: 200px;
+    height: 200px;
+    transition-timing-function: linear;
+    transition-property: width, background;
+    transition-duration: 500ms;
+}
+
+.one:hover {
+    width: 600px;
+    background-color: rgb(31, 189, 189);
+}
+
+.two {
+    background-color: rgb(94, 238, 238);
+    color: white;
+    width: 200px;
+    height: 200px;
+    transition-timing-function: ease-in;
+    transition-property: width, background;
+    transition-duration: 500ms;
+}
+
+.two:hover {
+    width: 600px;
+    background-color: rgb(2, 109, 109);
+}
+
+.three {
+    background-color: rgb(31, 189, 189);
+    color: white;
+    width: 200px;
+    height: 200px;
+    transition-timing-function: ease-out;
+    transition-property: width, background;
+    transition-duration: 500ms;
+}
+
+.three:hover {
+    width: 600px;
+    background-color: rgb(0, 255, 255);
+}
+
+.four {
+    background-color: rgb(2, 109, 109);
+    color: white;
+    width: 200px;
+    height: 200px;
+    transition-timing-function: ease-in-out;
+    transition-property: width, background;
+}
+
+.four:hover {
+    width: 600px;
+    background-color: rgb(94, 238, 238);
+}
