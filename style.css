@@ -9,7 +9,13 @@ h1 {
     color: white;
 }
 
-/* Voorbeeld 1 */
+/* Section 1 */
+
+.hs1 {
+    margin: 150px;
+    font: bold;
+    color: white;
+}
 
 .voorbeeld-1 {
     width: 300px;
@@ -40,7 +46,7 @@ h1 {
     transform: rotate(315deg);
 }
 
-/* Timing fuction */
+/* Section 2 */
 
 .box {
     width: 200px;
@@ -119,7 +125,7 @@ h1 {
     background-color: rgb(94, 238, 238);
 }
 
-/* Voorbeeld 3 */
+/* Section 3 */
 
 .section-3 {
     display: flex;
