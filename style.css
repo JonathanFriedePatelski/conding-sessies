@@ -10,8 +10,8 @@ h1 {
 }
 
 .content {
-    border-radius: 12px;
-    box-shadow: 0 5px 10px rgb(1, 95, 1);
+    border-radius: 20px;
+    border-color: rgb(1, 95, 1);
 }
 
 /* nav */
@@ -37,6 +37,22 @@ h1 {
     font-weight: 500;
     padding: 6px 0;
     text-decoration: none;
+}
+
+.nav li a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: rgb(8, 221, 8);
+    width: 0%;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+
+.nav li a:hover:before {
+    width: 100%;
 }
 
 /* Section 1 */
