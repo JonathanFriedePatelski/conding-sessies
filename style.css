@@ -80,8 +80,9 @@ h1 {
     height: 300px;
     margin: 100px;
     background: rgb(241, 48, 48);
-    color: rgb(241, 48, 48);
+    color: #f13030;
     transition-duration: 1000ms;
+    /* transition-delay: 500ms; */
     transition-timing-function: cubic-bezier(0.71, -0.75, 0.22, 1.08);
     transition-property: transform, background, width, font-size;
     display: flex;
@@ -146,7 +147,7 @@ h1 {
     height: 200px;
     transition-timing-function: ease-in;
     transition-property: width, background;
-    transition-duration: 500ms;
+    transition-duration: 1000ms;
 }
 
 .two:hover {
@@ -161,7 +162,7 @@ h1 {
     height: 200px;
     transition-timing-function: ease-out;
     transition-property: width, background;
-    transition-duration: 500ms;
+    transition-duration: 1000ms;
 }
 
 .three:hover {
