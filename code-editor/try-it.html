@@ -6,10 +6,12 @@
     <title>Try it</title>
     <link rel="stylesheet" href="try-it.css" />
     <link rel="stylesheet" href="../nav.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-
     <section class="nav">
       <ul>
         <li><a href="../public/index.html">Css Base</a></li>
@@ -17,25 +19,29 @@
     </section>
 
     <section class="container">
-        <h1>Code Editor</h1>
+      <h1>Code Editor</h1>
 
-        <div class="editor">
-            <div class="left">
-                <label for=""><i class='bx bxl-html5'></i>HTML</label>
-                <textarea onkeyup="run()" spellcheck="false" id="html-code"></textarea>
+      <div class="editor">
+        <div class="left">
+          <label for=""><i class="bx bxl-html5"></i>HTML</label>
+          <textarea
+            onkeyup="run()"
+            spellcheck="false"
+            id="html-code"
+          ></textarea>
 
-                <label for=""><i class='bx bxl-css3' ></i>CSS</label>
-                <textarea onkeyup="run()" spellcheck="false" id="css-code"></textarea>
+          <label for=""><i class="bx bxl-css3"></i>CSS</label>
+          <textarea onkeyup="run()" spellcheck="false" id="css-code"></textarea>
 
-                <label for=""><i class='bx bxl-javascript' ></i>JavaScript</label>
-                <textarea onkeyup="run()" spellcheck="false" id="js-code"></textarea>
-            </div>
-
-            <div class="right">
-                <label for=""><i class='bx bx-play' ></i>Output</label>
-                <iframe id="output"></iframe>
-            </div>
+          <label for=""><i class="bx bxl-javascript"></i>JavaScript</label>
+          <textarea onkeyup="run()" spellcheck="false" id="js-code"></textarea>
         </div>
+
+        <div class="right">
+          <label for=""><i class="bx bx-play"></i>Output</label>
+          <iframe id="output"></iframe>
+        </div>
+      </div>
     </section>
 
     <script src="try-it.js"></script>
