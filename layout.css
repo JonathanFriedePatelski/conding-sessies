@@ -1,3 +1,18 @@
+body {
+    background-color: rgb(32, 33, 36);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    margin-left: 100px;
+    padding: 20px;
+    padding-left: 200px;
+    box-sizing: border-box;
+}
+
+/* main navbar */
+
 .nav {
     display: flex;
     justify-content: center;
@@ -38,12 +53,6 @@
 }
 
 /* side nav */
-
-body {
-    background-color: rgb(32, 33, 36);
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
 .sidenav {
     height: 100%;
