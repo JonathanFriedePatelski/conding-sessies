@@ -10,4 +10,3 @@ function run() {
 
     output.contentWindow.eval(jsCode.value);
 }
-
